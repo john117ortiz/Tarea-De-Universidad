@@ -1,0 +1,80 @@
+Tarea While
+
+1 
+
+numero = int(input("Ingresa un Numero:"))
+contador = 1
+
+while contador <= numero:
+    print(contador)
+    contador +=1
+
+2
+
+for number in range (1,21):
+    if number %2 ==0:
+        print(number)
+
+3
+numero = int(input("Ingresa un Numero:"))
+CD = 0
+
+if numero == 0:
+    CD = 1
+else:
+    temp = numero
+while temp > 0:
+   CD += 1
+   temp = temp // 10
+    
+print(f"El número {numero} tiene {CD} dígitos.")
+4
+suma = 0
+for number in range (1,101):
+    suma += number
+
+print(f"La Suma de los numeros 1 al 100 es {suma}")
+5
+numero = int(input("Ingresa un Numero:"))
+
+while numero >=0:
+    print(numero)
+    numero -=1
+6
+numero = int(input("Ingrese un número para ver su tabla de multiplicar: "))
+    
+print(f"Tabla de multiplicar del {numero}:")
+for i in range(1, 11):
+    resultado = numero * i
+    print(f"{numero} x {i} = {resultado}")
+7
+numero = int(input("Ingrese un número entero positivo: "))
+contador = 0
+    
+print(f"Números impares desde 1 hasta {numero}:")
+while contador <= numero:
+    if contador % 2 != 0:
+     print(contador)
+    contador += 1
+8
+
+9
+numero = int(input("Ingrese un número para calcular su factorial: "))
+factorial = 1
+contador = 1
+    
+while contador <= numero:
+    factorial *= contador
+    contador += 1
+    
+print(f"El factorial de {numero} es: {factorial}")
+10
+contrasena_correcta = "JOHN"
+contrasena_ingresada = ""
+    
+while contrasena_ingresada != contrasena_correcta:
+    contrasena_ingresada = input("Ingrese la contraseña: ")
+    if contrasena_ingresada != contrasena_correcta:
+     print("Contraseña incorrecta. Intente nuevamente.")
+    
+print("¡Contraseña correcta! Acceso concedido.")
