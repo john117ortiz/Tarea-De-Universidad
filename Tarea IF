@@ -1,0 +1,276 @@
+numero 1
+
+num = int(input("Ingresa un numero:"))
+if num > 0:
+ print("El numero ingresado es positivo")
+ exit(1)
+elif num == 0:
+ print("El numero insertado es cero")
+ exit (1)
+else: num < 0
+print("El numero insertado es Negativo")
+exit(1)
+
+
+numero 2
+
+numero = int(input("ingresa un numero:"))
+if numero % 2 == 0:
+    print("Su numero es par")
+    exit(1)
+
+else:
+    print("Su numero es inpar")
+    exit(1)
+
+numero 3 
+
+edad = int(input("Ingresa su Edad:"))
+if edad > 18:
+    print("usted es mayor de edad")
+    exit(1)
+else:
+    print("No hay nada que ver aqui")
+    exit(1)
+
+numero 4
+
+number=int(input("Ingresa un numero:"))
+if number / 5:
+ print("Su Numero es Multiplo")
+ exit(1)
+
+else:
+ print("Su numero no es multiplo")
+ exit(1)
+
+numero 5
+
+edad = int(input("Ingresa su Edad:"))
+if edad > 60:
+    print("usted es apto para un descuento de 50%")
+    exit(1)
+else:
+    print("usted no es apto para un descuento de 50%")
+    exit(1)
+
+numero 6
+
+cali = int(input("Ingresa su Calificacion:"))
+if cali > 60:
+    print("usted aprobo")
+    exit(1)
+
+elif cali > 100:
+    print("No puede ser mayor a 100")
+    exit(1)
+
+numero 7
+
+numero=int(input("Ingresa un numero del 1-7:"))
+
+if numero == 1:
+    print("Es Domingo")
+    exit(1)
+elif numero == 2:
+    print("Es Lunes")
+    exit(1)
+
+elif numero == 3:
+    print("Es Martes")
+    exit(1)
+
+elif numero == 4:
+    print("Es Miercoles")
+    exit(1)
+
+elif numero == 5:
+    print("Es Jueves")
+    exit(1)
+
+elif numero == 6:
+    print("Es Viernes")
+    exit(1)
+
+elif numero == 7:
+    print("Es Sabado")
+    exit(1)
+
+
+numero 8
+
+numero1=int(input("Ingresa un numero:"))
+numero2=int(input("Ingresa otro numero:"))
+
+if numero1 > numero2:
+    print(f"{numero1} es mayor a {numero2}")
+
+elif numero1 < numero2:
+    print(f"{numero1} es manor a {numero2}")
+
+elif numero1 == numero2:
+    print(f"{numero1} es igual a {numero2}")
+
+numero 9 
+
+numero1=int(input("Ingresa el primer numero:"))
+numero2=int(input("Ingresa el segundo numero:"))
+numero3=int(input("Ingresa el tercer numero:"))
+
+if numero1 > numero2 and numero1 > numero3:
+    print(f"El numero {numero1} es el mayor")
+   
+elif numero2 > numero1 and numero2 > numero3:
+     print(f"El numero {numero2} es el mayor")
+    
+else:
+     print(f"El numero {numero3} es el mayor")
+
+numero 10 
+
+numero1=int(input("Ingresa el angulo en grado:"))
+
+if numero1 < 90:
+    print("Su Angulo es Agudo")
+
+elif numero1 == 90:
+    print("Su Angulo es Recto")
+
+elif numero1 > 90 and numero1 < 180:
+    print("Su Angulo es Obtuso")
+
+elif numero1 == 180:
+    print("Su Angulo es Llano")
+
+
+numero 11
+
+Numero 12
+
+
+num1 = int(input("Ingrese el primer número: "))
+num2 = int(input("Ingrese el segundo número: "))
+num3 = int(input("Ingrese el tercer número: "))
+
+
+if num1 > 0 and num2 > 0 and num3 > 0:
+    print("Todos los números son positivos")
+    exit(1)
+elif num1 < 0 and num2 < 0 and num3 < 0:
+    print("Todos los números son negativos")
+    exit(1)
+elif num1 == 0 or num2 == 0 or num3 == 0:
+    print("su numero incluye al menos un cero")
+    exit(1)
+else:
+    print("Números mixtos")
+    exit(1)
+
+
+numero 13
+
+año = int(input("Ingrese un año: "))
+
+if año % 400 == 0:
+    print(f"{año} es un año bisiesto.")
+    exit(1)
+elif año % 100 == 0:
+    print(f"{año} no es un año bisiesto.")
+    exit(1)
+elif año % 4 == 0:
+    print(f"{año} es un año bisiesto.")
+    exit(1)
+else:
+    print(f"{año} no es un año bisiesto.")
+    exit(1)
+
+
+numero 14 
+
+calificacion = int(input("Ingrese la calificación numérica (0-100): "))
+
+if calificacion >= 90 and calificacion <= 100:
+    letra = "A"
+elif calificacion >= 80 and calificacion <= 89:
+    letra = "B"
+elif calificacion >= 70 and calificacion <= 79:
+    letra = "C"
+elif calificacion >= 60 and calificacion <= 69:
+    letra = "D"
+elif calificacion >= 0 and calificacion <= 59:
+    letra = "F"
+
+print(f"Su calificación fue {calificacion} usted obtuvo una {letra}")
+
+numero 15 
+
+lado1 = int(input("Ingrese la longitud del primer lado: "))
+lado2 = int(input("Ingrese la longitud del segundo lado: "))
+lado3 = int(input("Ingrese la longitud del tercer lado: "))
+
+if lado1 + lado2 > lado3 and lado1 + lado3 > lado2 and lado2 + lado3 > lado1:
+    print("Estas tres longitudes pueden formar un triángulo.")
+    exit(1)
+else:
+    print("Estas tres longitudes NO pueden formar un triángulo.")
+    exit(1)
+
+
+
+numero 16
+precio = int(input("Ingrese el precio del producto: $"))
+
+
+if precio < 50:
+    porcentaje_descuento = 0
+elif precio >= 50 and precio <= 100:
+    porcentaje_descuento = 5
+else:
+    porcentaje_descuento = 10
+descuento = precio * (porcentaje_descuento / 100)
+precio_final = precio - descuento
+
+print(f"Precio final: ${precio_final:.2f}")
+
+numero 17
+
+lado1 = int(input("Ingrese la longitud del primer lado del triángulo: "))
+lado2 = int(input("Ingrese la longitud del segundo lado del triángulo: "))
+lado3 = int(input("Ingrese la longitud del tercer lado del triángulo: "))
+
+
+if lado1 + lado2 > lado3 and lado1 + lado3 > lado2 and lado2 + lado3 > lado1:
+    if lado1 == lado2 == lado3:
+        print("Es un triángulo equilátero (todos los lados iguales).")
+    elif lado1 == lado2 or lado1 == lado3 or lado2 == lado3:
+        print("Es un triángulo isósceles (dos lados iguales).")
+    else:
+        print("Es un triángulo escaleno (todos los lados diferentes).")
+
+numero 18 
+
+temperatura = int(input("Ingrese la temperatura en grados Celsius: "))
+
+if temperatura < 0:
+    print("Hace mucho frío(Que haces afuera?)")
+elif temperatura >= 0 and temperatura <= 20:
+    print("Clima fresco")
+elif temperatura >= 21 and temperatura <= 30:
+    print("Clima agradable(lindo dia para paseo)")
+else:
+    print("Hace mucho calor(Vamos para la playa)")
+
+numero 19
+
+hora = int(input("Ingrese la hora (0-23): "))
+
+if hora >= 6 and hora <= 11:
+    turno = "Mañana"
+elif hora >= 12 and hora <= 17:
+    turno = "Tarde"
+elif hora >= 18 and hora <= 23:
+    turno = "Noche"
+else:
+    turno = "Madrugada"
+    
+print(f"La hora {hora}:00 corresponde al turno: {turno}")
